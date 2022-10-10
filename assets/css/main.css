@@ -47,6 +47,7 @@ form input {
     border: none;
     border-bottom: 2px solid;
     padding: 8px;
+    margin-right: 8px;
 }
 
 form button {
