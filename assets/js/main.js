@@ -40,7 +40,7 @@ function atualizaTabela() {
 
 function mask(o, f) {
     setTimeout(function () {
-        var v = mphone(o.value);
+        var v = f(o.value);
         if (v != o.value) {
             o.value = v;
         }
